@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: "D2Coding";
   src: url("fonts/D2Coding.ttf") format("truetype");
   font-weight: normal;
@@ -7,11 +7,6 @@
 
 body {
   background-color: #1e1f22;
-}
-
-.tab {
-  margin: 3rem;
-  margin-left: 2.5em;
 }
 
 .centered {
@@ -24,10 +19,11 @@ body {
 
 h1 {
   font-family: "D2Coding", monospace;
-  font-size: 35px;
+  font-size: 28px;
   white-space: nowrap;
-  line-height: 0%;
+  line-height: 1.6;
   color: white;
+  margin: 0;
 }
 
 p {
@@ -39,14 +35,6 @@ p {
   color: #abb2bf;
 }
 
-a{
-  font-family: "JetBrains Mono", monospace;
-  font-size: 15px;
-  font-weight: bolder;
-  color: white;
-  text-align: center;
-}
-
 .border {
   outline: auto;
   outline-color: #383c44;
@@ -54,10 +42,7 @@ a{
   outline-width: 5px;
   outline-style: solid;
   padding: 10px;
-  border-top-right-radius: 1%;
-  border-bottom-left-radius: 1%;
-  border-bottom-right-radius: 1%;
-  border-top-left-radius: 1%;
+  border-radius: 10px;
 }
 
 .window {
@@ -78,6 +63,72 @@ a{
   width: 16px;
   background-color: #e06c75;
   border-radius: 50%;
-  transform: translate(132px,-41px);
+  transform: translate(132px, -41px);
   text-align: center;
+}
+
+/* Syntax Highlighting */
+.keyword {
+  color: #b072d1;
+}
+
+.method-name {
+  color: #e5c07b;
+}
+
+.class-name {
+  color: #e5c07b;
+}
+
+.type {
+  color: #e5c07b; /* 노란색으로 String[] 수정 */
+}
+
+.args {
+  color: #b7b9c2;
+}
+
+.method {
+  color: #61afef;
+}
+
+.paren, .semicolon {
+  color: #d19a66;
+}
+
+.number {
+  color: #e06c75;
+}
+
+.string {
+  color: #98c379;
+}
+
+.bracket {
+  color: #e06c75;
+}
+
+.variable-name {
+  color: #e06c75;
+}
+
+.operator {
+  color: #abb2bf;
+}
+
+
+.code-line {
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+}
+
+.clock-main {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.method-chain {
+  padding-left: 10.2em; /* 인덴트 추가 */
 }

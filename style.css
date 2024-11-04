@@ -36,11 +36,8 @@ p {
 }
 
 .border {
-  outline: auto;
-  outline-color: #383c44;
   outline-offset: 15px;
-  outline-width: 5px;
-  outline-style: solid;
+  outline: #383c44 solid 5px;
   padding: 10px;
   border-radius: 10px;
 }
@@ -120,15 +117,15 @@ p {
 .code-line {
   display: flex;
   align-items: center;
-  padding-left: 1em;
+  /*padding-left: 1em;*/
 }
 
 .clock-main {
   display: flex;
   align-items: center;
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .method-chain {
-  padding-left: 10.2em; /* 인덴트 추가 */
+  padding-left: 9.6em; /* 인덴트 추가 */
 }

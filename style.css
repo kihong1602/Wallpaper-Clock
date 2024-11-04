@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "D2Coding";
-  src: url("fonts/D2Coding.ttf") format("truetype");
+  font-family: 'D2Coding';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -84,7 +84,7 @@ p {
   color: #e5c07b; /* 노란색으로 String[] 수정 */
 }
 
-.args {
+.args, .semicolon {
   color: #b7b9c2;
 }
 
@@ -92,7 +92,7 @@ p {
   color: #61afef;
 }
 
-.paren, .semicolon {
+.paren {
   color: #d19a66;
 }
 
